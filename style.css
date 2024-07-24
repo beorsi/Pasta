@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+}
+#headL{
+    background-color: #E99456; 
+    width: 65%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 25%;
+}
+#headL a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    font-size: 18px;
+}
+#logo{
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding-right: 5%;
+}
