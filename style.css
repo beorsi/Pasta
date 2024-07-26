@@ -6,23 +6,70 @@ header{
 }
 #headL{
     background-color: #E99456; 
-    width: 65%;
+    width: 95%;
     height: 80px;
-    display: flex;
-    align-items: center;
-    padding-left: 25%;
+    align-content: center;
 }
 #headL a{
     text-decoration: none;
     color: black;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
-    padding-right: 20px;
+    padding-right: 25px;
     font-size: 18px;
+}
+#pages{
+    display: flex;
+}
+#H{
+    padding-left: 30%;
 }
 #logo{
     height: 100px;
     margin-left: 20px;
     margin-top: 15px;
-    padding-right: 5%;
+    padding-right: 3%;
+}
+#ped{
+    padding-right: 25%;
+}
+#lupa{
+    font-size: 26px;
+}
+#pesquisa{
+    position: absolute;
+    right: 10.2%;
+    top: 22px;
+    height: 30px;
+    width: 30px;
+    opacity: 0;
+}
+#pesquisa:hover{
+    cursor: pointer;
+}
+#Barra{
+    opacity: 0;
+    width: 70%;
+    background-color: lightgray;
+    height: 5vh; 
+    position:absolute;
+    margin-left: 7%;
+    border-radius: 20px;
+    text-align: end;
+    align-content: center;
+    padding-right: 25px;
+    transition: .3s;
+}
+#pesq{
+    width: 80%;
+    margin-right: 50px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+#pesquisa:checked + #Barra{
+    opacity: 1;
+    position: absolute;
+    top: 10%;
 }
