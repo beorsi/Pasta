@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: linear-gradient(to bottom right,white,lightgray);
+    background: linear-gradient(to bottom right,white,lightgray);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -76,7 +76,9 @@ header{
     position: absolute;
     top: 10%;
 }
-
+.corBlur{
+    background: rgba(0, 0, 0, 0.486);
+}
 #fotoPrinc{
     align-content: center;
     text-align: center;
@@ -84,8 +86,14 @@ header{
     font-size: 35px;
     color: rgb(43, 43, 43);
 }
+#fotoPrinc i:hover{
+    cursor: pointer;
+}
 #macarraoG{
     vertical-align: middle;
     margin-left: 25px;
     margin-right: 25px;
+}
+#pressao{
+    height: 120px;
 }
