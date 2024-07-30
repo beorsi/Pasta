@@ -1,5 +1,8 @@
 body{
     margin: 0;
+    background-image: linear-gradient(to bottom right,white,lightgray);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     display: flex;
@@ -72,4 +75,17 @@ header{
     opacity: 1;
     position: absolute;
     top: 10%;
+}
+
+#fotoPrinc{
+    align-content: center;
+    text-align: center;
+    height: 50vh;
+    font-size: 35px;
+    color: rgb(43, 43, 43);
+}
+#macarraoG{
+    vertical-align: middle;
+    margin-left: 25px;
+    margin-right: 25px;
 }
