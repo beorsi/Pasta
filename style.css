@@ -116,7 +116,7 @@ header {
     height: 120px;
 }
 
-#destaques {
+#l1d {
     margin-left: 25%;
     margin-top: 5%;
     display: flex;
@@ -127,10 +127,32 @@ header {
     line-height: 2;
     font-family: "Kufam", sans-serif;
 }
-.desc{
+
+.desc {
     padding-top: 15px;
     margin-left: .8%;
-}#d2{
+}
+
+#d2 {
+    margin-left: 25%;
+    display: flex;
+    line-height: 2;
+    font-family: "Kufam", sans-serif;
+}
+#l2d {
+    margin-left: 25%;
+    margin-top: 5%;
+    display: flex;
+}
+
+#d3 {
+    display: flex;
+    line-height: 2;
+    font-family: "Kufam", sans-serif;
+}
+
+
+#d4 {
     margin-left: 25%;
     display: flex;
     line-height: 2;
