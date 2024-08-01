@@ -158,3 +158,18 @@ header {
     line-height: 2;
     font-family: "Kufam", sans-serif;
 }
+footer{
+    height: 15vh;
+    background-color: #E99456;
+    margin-top: 4%;
+    align-content: center;
+    text-align: center;
+    font-size: 55px;
+}
+footer i{
+    margin-right: 30px;
+
+}
+footer i:hover{
+    cursor: pointer;
+}
