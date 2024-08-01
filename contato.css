@@ -95,6 +95,24 @@ header {
 }
 
 
+#arredondado{
+    height: 50vh;
+    background-image: linear-gradient(#E99456, lightgray);
+    width: 40%;
+    border-radius: 40px;
+    margin-top: 5%;
+    margin-left: 12%;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+.l{
+    font-size: 18px;
+}
+
+
+
+
+
 
 
 
