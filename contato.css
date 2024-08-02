@@ -102,13 +102,23 @@ header {
     border-radius: 40px;
     margin-top: 5%;
     margin-left: 12%;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-top: 3%;
 }
 .l{
     font-size: 18px;
+    font-family: "Kufam", sans-serif;
+    margin-bottom: 3%;
 }
-
+.l > input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(67, 65, 97);
+    background-color: transparent;
+    color: black;
+    margin-left: 3%;
+    font-size: 18px;
+}
 
 
 
