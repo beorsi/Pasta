@@ -63,16 +63,20 @@ header {
 
 #Barra {
     opacity: 0;
-    width: 70%;
+    width: 50%;
     background-color: lightgray;
-    height: 5vh;
+    height: 4vh;
     position: absolute;
-    margin-left: 7%;
     border-radius: 20px;
-    text-align: end;
+    text-align: center;
     align-content: center;
-    padding-right: 25px;
     transition: .3s;
+}
+dialog{
+    padding: 10px;
+    border: none;
+    position: absolute;
+    top: 5%;
 }
 
 #pesq {
@@ -191,4 +195,7 @@ footer i:hover{
 }
 #destaques img:hover{
     cursor: pointer;
+}
+::backdrop {
+    background-color: rgba(0, 0, 0, 40%);
 }
