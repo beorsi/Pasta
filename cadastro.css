@@ -105,14 +105,15 @@ dialog{
     width: 40%;
     border-radius: 40px;
     margin-top: 5%;
-    margin-left: 12%;
-    padding-left: 10%;
+    margin-left: 20%;
+    padding-left: 8%;
     padding-top: 3%;
 }
 .l{
     font-size: 18px;
     font-family: "Kufam", sans-serif;
     margin-bottom: 5%;
+    display: flex;
 }
 .l > input{
     outline: none;
@@ -120,19 +121,7 @@ dialog{
     border-bottom: 2px solid rgb(67, 65, 97);
     background-color: transparent;
     color: black;
-
     font-size: 18px;
-}
-#mensagem{
-    height: 150px;
-    width: 40%;
-    margin-left: 27%;
-    outline: none;
-    resize: none;
-    border: none;
-    border-radius: 10px;
-    padding-left: 8px;
-    font-family: "Kufam", sans-serif;
 }
 #digite{
     position: sticky;
@@ -146,6 +135,9 @@ dialog{
 #phone{
     margin-left: 3.2%;
 }
+#endereço{
+    margin-left: 2%;
+}
 #btn{
     position: absolute;
     bottom: 30%;
@@ -158,21 +150,25 @@ dialog{
 #btn:hover{
     cursor: pointer;
 }
-
-#tel{
+#Touch{
     position: absolute;
-    top: 40%;
-    right: 21.6%;
-    height: 400px;
+    top: 0;
+    right: 0;
+    z-index: -9;
+    height: 95%;
 }
-#rolo{
+#garfo{
     position: absolute;
     top: 20%;
-    right: 10%;
-    height: 150px;
+    height: 15%;
+    left: 5%;
 }
-
-
+#fumacinha{
+    position: absolute;
+    bottom: 20%;
+    height: 15%;
+    left: 5%;
+}
 
 
 
