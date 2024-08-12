@@ -110,18 +110,10 @@ dialog{
     padding-top: 3%;
 }
 .l{
-    font-size: 18px;
-    font-family: "Kufam", sans-serif;
-    margin-bottom: 5%;
     display: flex;
 }
-.l > input{
-    outline: none;
-    border: none;
-    border-bottom: 2px solid rgb(67, 65, 97);
-    background-color: transparent;
-    color: black;
-    font-size: 18px;
+.l img{
+    height: 120px;
 }
 #digite{
     position: sticky;
