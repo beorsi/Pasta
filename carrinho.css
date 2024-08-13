@@ -111,6 +111,7 @@ dialog{
 }
 .l{
     display: flex;
+    margin-bottom: 60px; ;
 }
 .l img{
     height: 120px;
