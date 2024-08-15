@@ -38,25 +38,32 @@
 
     <div id="arredondado">
         <div class="l">
-            <img src="img/pressao.jpg" alt="">
-            <span> R$ 25,00</span>
+            Escolha o método de pagamento:
+            <input list="metodos" name="metodo" id="metodo">
+            <datalist id="metodos">
+                <option value="Dinheiro">
+                <option value="Crédito">
+                <option value="Débito">
+                <option value="Pix">
+                <option value="Cheque">
+            </datalist>
         </div>
         <div class="l">
-            <img src="img/calabresa.png" alt="">
-            <span> R$ 27,50</span>
+            Digite o endereço para a entrega:
+            <input type="text" placeholder="Rua andrade, 852, apartamento 402" id="end">
         </div>
-        <div class="l">
-            <div id="resultado">
-                O total é: R$52,50
-            </div>
-            <div id="pagBtn">
-                <a href="">Ir para o pagamento</a>
-            </div>
+        <div id="BtnConf">
+            Clique aqui para <br> finalizar o pedido
         </div>
     </div>
-
+    <input type="checkbox" name="" id="confirmar">
+    <div id="popUp">
+        Pedido realizado com sucesso <br>
+        Chegará em  25  minutos <br>
+        <img src="img/motoboy.png" alt="">
+    </div>
     <img src="img/pote.png" alt="" id="Touch">
-    
+
     <img src="img/garfo.png" alt="" id="fumacinha">
     <footer>
         <i class="fa-brands fa-instagram"></i>

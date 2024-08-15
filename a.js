@@ -9,3 +9,9 @@ const barraPesquisa = document.getElementById("Barra")
 btnPesquisa.addEventListener("click", () => {
     barraPesquisa.showModal();
 })
+const conf = document.getElementById("confirmar")
+const popUp = document.getElementById("popUp")
+
+conf.addEventListener("click", () => {
+    barraPesquisa.showModal();
+})
